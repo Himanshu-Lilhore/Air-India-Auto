@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<parameter name="fname" value="Him"></parameter>
+	<parameter name="lname" value="Anshu"></parameter>
+	<parameter name="email" value="him@nshu.com"></parameter>
+	<parameter name="dob" value="15/02/2000"></parameter>
+	<parameter name="mob" value="9876543210"></parameter>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="skyIsTheLimit.BillingCheck"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
